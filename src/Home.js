@@ -10,6 +10,7 @@ function Home(){
   return(
     <div className="home">
      <BlogList blogs={blogs} title="List of Blogs" />
+     <BlogList blogs={blogs} title="List of Blogs" />
     </div>
   );
 }
