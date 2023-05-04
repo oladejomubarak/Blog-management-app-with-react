@@ -10,7 +10,7 @@ function Home(){
   return(
     <div className="home">
      <BlogList blogs={blogs} title="List of Blogs" />
-     <BlogList blogs={blogs} title="List of Blogs" />
+     <BlogList blogs={blogs.filter((blog)=>blog.author === "mubarak")} title="List of Blogs" />
     </div>
   );
 }
