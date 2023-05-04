@@ -9,7 +9,7 @@ function Home(){
   );
   return(
     <div className="home">
-     <BlogList blogs={blogs} title="Blog Lists" />
+     <BlogList blogs={blogs} title="List of Blogs" />
     </div>
   );
 }
