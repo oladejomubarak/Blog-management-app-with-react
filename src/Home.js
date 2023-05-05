@@ -13,7 +13,7 @@ function Home(){
   }
   useEffect(()=>{
 console.log("use effect")
-  })
+  }, [])
   return(
     <div className="home">
      <BlogList blogs={blogs} title="List of Blogs" handleBlogDelete={handleBlogDelete}/>
