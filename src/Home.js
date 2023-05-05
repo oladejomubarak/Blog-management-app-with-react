@@ -7,10 +7,14 @@ function Home(){
     {id:2, title: "I am bad", body: "life is bad", author: "Oladejo"},
   {id:3, title : "I am hard", body: "life is hard", author:"Adeshina"}]
   );
+  const handleBlogDelete=(blogId)=>{
+    const newBlogs = blogs.filter(blog=>blog.id !== blogId)
+    setBlogs(newBlogs)
+  }
   return(
     <div className="home">
-     <BlogList blogs={blogs} title="List of Blogs" />
-     <BlogList blogs={blogs.filter((blog)=>blog.author === "Mubarak")} title="Mubarak's blogs" />
+     <BlogList blogs={blogs} title="List of Blogs" handleBlogDelete={handleBlogDelete}/>
+     <BlogList blogs={blogs.filter((blog)=>blog.author === "Mubarak")} title="Mubarak's blogs" handleBlogDelete={handleBlogDelete}/>
     </div>
   );
 }
