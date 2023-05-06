@@ -13,10 +13,12 @@ fetch("http://localhost:8000/blogs").then(res =>{
  return res.json();
 }).then(data=>{
   setBlogs(data);
+  setPending(false);
 })
   }, [])
   return(
     <div className="home">
+      {isPending && <div>loading......</div>}
      {blogs && <BlogList blogs={blogs} title="List of Blogs"/>}
      {/* <BlogList blogs={blogs.filter((blog)=>blog.author === "Mubarak")} title="Mubarak's blogs" handleBlogDelete={handleBlogDelete}/> */}
     </div>
