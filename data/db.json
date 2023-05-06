@@ -1,0 +1,7 @@
+{
+  "blogs": [
+    {"id": 1, "author": "Mub", "title": "I have big head", "body":"yes, it is big"},
+    {"id": 2, "author": "Ola", "title": "I have good future", "body":"yes, it is a good future"},
+    {"id": 3, "author": "Ade", "title": "Story line", "body":"very strong, innit?"}
+  ]
+}
