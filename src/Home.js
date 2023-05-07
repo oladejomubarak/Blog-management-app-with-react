@@ -11,7 +11,7 @@ function Home(){
   // }
   useEffect(()=>{
     setTimeout(()=>{
-      fetch("http://localhost:8000/blogss").then(res =>{
+      fetch("http://localhost:8000/blogs").then(res =>{
         if(!res.ok){
           throw Error("Can't fecth data");
         }
@@ -19,7 +19,9 @@ function Home(){
 }).then(data=>{
   setBlogs(data);
   setPending(false);
+  setError(null)
 }).catch(err =>{
+  setPending(false);
   setError(err.message);
 })
 
