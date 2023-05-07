@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import Navbar from './Navbar';
-import Home from './Home';
+import Home from './HomeNinja';
 
 const welcomeGreetings = "Welcome to Note Management";
 function App() {
