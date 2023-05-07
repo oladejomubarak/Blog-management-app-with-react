@@ -9,12 +9,20 @@ function Home(){
   //   setBlogs(newBlogs)
   // }
   useEffect(()=>{
-fetch("http://localhost:8000/blogs").then(res =>{
+    setTimeout(()=>{
+      fetch("http://localhost:8000/blogs").then(res =>{
+        if(!res.ok){
+          throw Error("Can't fecth data");
+        }
  return res.json();
 }).then(data=>{
   setBlogs(data);
   setPending(false);
+}).catch(err =>{
+  console.log(err.message);
 })
+
+    }, 1000)
   }, [])
   return(
     <div className="home">
