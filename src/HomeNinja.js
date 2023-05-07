@@ -1,8 +1,9 @@
 import { useState, useEffect} from "react";
 import BlogList from "./BlogList";
+import useFetch from "./useFetch";
 
 function Home(){
- 
+ const {isPending, data: blogs, error} = useFetch("http://localhost:8000/blogs");
   // const handleBlogDelete=(blogId)=>{
   //   const newBlogs = blogs.filter(blog=>blog.id !== blogId)
   //   setBlogs(newBlogs)
