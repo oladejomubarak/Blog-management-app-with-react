@@ -1,5 +1,5 @@
-
-const useEffect = () =>{
+import { useEffect, useState } from "react";
+const useFetch = () =>{
 
   const [data, setData] = useState(null);
   const [isPending, setPending] = useState(true);
@@ -12,8 +12,8 @@ const useEffect = () =>{
           throw Error("Can't fetch data");
         }
  return res.json();
-}).then(data=>{
-  setData(data);
+}).then(fetchedData =>{
+  setData(fetchedData);
   setPending(false);
   setError(null)
 }).catch(err =>{
@@ -26,3 +26,4 @@ const useEffect = () =>{
 
   return {data, isPending, error}
 }
+export default useFetch;
