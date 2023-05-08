@@ -7,6 +7,7 @@ const welcomeGreetings = "Welcome to Note Management";
 function App() {
   
   return (
+    <Router>
     <div className='App'>
       <Navbar/>
       <div className='content'>
@@ -14,6 +15,7 @@ function App() {
         <Home/ >
       </div>
     </div>
+    </Router>
   );
 }
 
