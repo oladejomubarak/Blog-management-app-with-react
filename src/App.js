@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Navbar from './Navbar';
 import Home from './HomeNinja';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 const welcomeGreetings = "Welcome to Note Management";
 function App() {
