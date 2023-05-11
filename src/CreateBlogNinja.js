@@ -4,10 +4,15 @@ const CreateBlog = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("Mubarak");
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    const blog = {title, body, author};
+    console.log(blog);
+  }
   return (  
     <div className="create-blog">
       <h2>Add a new blog</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label>Blog title:</label>
         <input
         type="text"
@@ -38,7 +43,6 @@ const CreateBlog = () => {
         <p>{author}</p>
       </form>
       
-
     </div>
   );
 }
