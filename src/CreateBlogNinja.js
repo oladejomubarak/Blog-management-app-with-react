@@ -9,8 +9,8 @@ const CreateBlog = () => {
         required
         />
          <label>Blog body:</label>
-       <textarea>
-        required
+       <textarea
+       required>
        </textarea>
          <label>Blog author:</label>
         <select>
