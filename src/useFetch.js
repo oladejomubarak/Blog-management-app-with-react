@@ -26,7 +26,7 @@ const useFetch = (url) =>{
   }
 })
 
-    }, 100);
+    }, 1000);
     return () => abortCont.abort();
   }, [url])
 
