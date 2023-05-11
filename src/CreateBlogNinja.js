@@ -16,6 +16,7 @@ const CreateBlog = () => {
         <select>
           <option value="Mubarak">Mubarak</option>
           <option value="Oladejo">Oladejo</option>
+          <option value="Adeshina">Adeshina</option>
         </select>
         <button>Add blog</button>
       </form>
