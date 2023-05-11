@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Home from './HomeNinja';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import CreateBlog from './CreateBlogNinja';
+import BlogDetails from './BlogDetails';
 
 // const welcomeGreetings = "Welcome to Note Management";
 function App() {
@@ -20,8 +21,8 @@ function App() {
           <Route path = "/create">
             <CreateBlog />
           </Route>
-          <Route path = "/blog-details/:id">
-            <CreateBlog />
+          <Route path = "/blogs/:id">
+            <BlogDetails />
           </Route>
         </Switch>
       </div>
