@@ -11,7 +11,6 @@ function Home(){
  
   return(
     <div className="home">
-      <h1>Welcome to Note Management</h1>
       {error && <div>{error}</div> }
       {isPending && <div>loading......</div>}
      {blogs && <BlogList blogs={blogs} title="List of Blogs"/>}

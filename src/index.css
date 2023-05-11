@@ -31,3 +31,11 @@ border-bottom: 1px solid #f2f2f2;
   margin: 40px auto;
   padding: 20px;
 } */
+.blog-preview h2{
+  font-size: 20px;
+  color:#f1356d;
+border-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
