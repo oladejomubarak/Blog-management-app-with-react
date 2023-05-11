@@ -39,3 +39,36 @@ border-bottom: 8px;
 .blog-preview a{
   text-decoration: none;
 }
+.create-blog{
+  margin-left: 500px;
+  align-items: center;
+  align-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create-blog label{
+  text-align: left;
+  display: block;
+}
+.create-blog h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create-blog input, .create-blog textarea, .create-blog select{
+  width:100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create-blog button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
