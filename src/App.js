@@ -20,6 +20,9 @@ function App() {
           <Route path = "/create">
             <CreateBlog />
           </Route>
+          <Route path = "/blog-details/:id">
+            <CreateBlog />
+          </Route>
         </Switch>
       </div>
     </div>
