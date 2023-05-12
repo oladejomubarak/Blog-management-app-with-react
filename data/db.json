@@ -1,7 +1,43 @@
 {
   "blogs": [
-    {"id": 1, "author": "Mubarak", "title": "I have big head", "body":"yes, it is big, and it cab loadede off the parameter for making the life easy to use"},
-    {"id": 2, "author": "Oladejo", "title": "I have good future", "body":"yes, it is a good future and /none of which is suitable for the purpose o using it in a more circular depency of the way"},
-    {"id": 3, "author": "Adeshina", "title": "Story line", "body":"very strong, innit? yes of course it might be possible to have many kinds of duplicated stuffs in a more acceptable biler plates"}
+    {
+      "id": 1,
+      "author": "Mubarak",
+      "title": "I have big head",
+      "body": "yes, it is big, and it cab loadede off the parameter for making the life easy to use"
+    },
+    {
+      "id": 2,
+      "author": "Oladejo",
+      "title": "I have good future",
+      "body": "yes, it is a good future and /none of which is suitable for the purpose o using it in a more circular depency of the way"
+    },
+    {
+      "id": 3,
+      "author": "Adeshina",
+      "title": "Story line",
+      "body": "very strong, innit? yes of course it might be possible to have many kinds of duplicated stuffs in a more acceptable biler plates"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "title": "gvnh",
+      "body": "hjgykyu",
+      "author": "Adeshina",
+      "id": 9
+    }
   ]
 }
