@@ -65,10 +65,36 @@ border-bottom: 8px;
   display: block;
 }
 .create-blog button{
-  background: #f1356d;
+  background: rgb(44, 247, 44);
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.blog-details button{
+  background: #f1356d;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.blog-details div{
+  margin:20px 0;
+}
+
+.blog-details{
+  margin: auto 0;
+  margin-left: 350px;
+  margin-right: 450px;
+  margin-top: 20px;
+  border-width: 20px;
+  border: 1px solid rgb(217, 210, 210);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 15px;
 }
