@@ -5,8 +5,6 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import CreateBlog from './CreateBlogNinja';
 import BlogDetails from './BlogDetails';
 import Notfound from './NotFound';
-
-// const welcomeGreetings = "Welcome to Note Management";
 function App() {
   
   return (
